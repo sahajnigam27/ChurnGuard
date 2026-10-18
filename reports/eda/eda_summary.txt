@@ -1,0 +1,79 @@
+CHURNGUARD - EDA SUMMARY
+============================================================
+
+Dataset rows: 7043
+Dataset columns: 21
+
+DATA TYPES
+customerID              str
+gender                  str
+SeniorCitizen         int64
+Partner                 str
+Dependents              str
+tenure                int64
+PhoneService            str
+MultipleLines           str
+InternetService         str
+OnlineSecurity          str
+OnlineBackup            str
+DeviceProtection        str
+TechSupport             str
+StreamingTV             str
+StreamingMovies         str
+Contract                str
+PaperlessBilling        str
+PaymentMethod           str
+MonthlyCharges      float64
+TotalCharges            str
+Churn                   str
+
+MISSING VALUES
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+
+DUPLICATE ROWS
+0
+
+CHURN DISTRIBUTION
+Churn
+No     5174
+Yes    1869
+
+CHURN PERCENTAGES
+Churn
+No     73.46
+Yes    26.54
+
+CHURN BY CONTRACT TYPE (%)
+Churn              No    Yes
+Contract                    
+Month-to-month  57.29  42.71
+One year        88.73  11.27
+Two year        97.17   2.83
+
+CHURN BY INTERNET SERVICE (%)
+Churn               No    Yes
+InternetService              
+DSL              81.04  18.96
+Fiber optic      58.11  41.89
+No               92.60   7.40
+
