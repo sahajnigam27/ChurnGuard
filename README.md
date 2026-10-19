@@ -227,6 +227,30 @@ ChurnGuard/
 
 These are potential improvements, not claims about currently implemented functionality.
 
+---
+
+## 🖥️ Dashboard Preview
+
+### 1. Executive Overview
+View prediction statistics, churn classification metrics, and monitoring activity.
+
+![ChurnGuard Executive Overview](docs/images/dashboard-overview.png)
+
+### 2. Live Prediction
+Explore the customer prediction interface and its API connectivity.
+
+![ChurnGuard Live Prediction](docs/images/live-prediction.png)
+
+### 3. Prediction Explorer
+Review recorded predictions and explore customer churn classifications.
+
+![ChurnGuard Prediction Explorer](docs/images/prediction-explorer.png)
+
+### 4. Drift Intelligence
+Inspect the interface for statistical data drift monitoring.
+
+![ChurnGuard Drift Intelligence](docs/images/drift-intelligence.png)
+
 ## 👨‍💻 Author
 
 **Sahaj Nigam**
